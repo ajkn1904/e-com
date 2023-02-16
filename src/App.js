@@ -13,13 +13,13 @@ function App() {
 
 
   return (
-    <div className="">
+    <div className="lg:w-[1440px] mx-auto">
      
       <Header />
       
       <TopNav data={data.categoryData}/>
       
-      <div className='flex h-screen'>
+      <div className='flex'>
         <SideNav className="" data={data.categoryData}/>
         <Contents className="" data={data.productData}/>
       </div>
