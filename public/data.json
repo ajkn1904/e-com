@@ -1,0 +1,705 @@
+[
+      {
+        "cat_id": "01",
+        "category": "Produce",
+        "category_img": "../src/images/Vector (1).png",
+        "prod_id": "01",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "01",
+        "category": "Produce",
+        "category_img": "../src/images/Vector (1).png",
+        "prod_id": "02",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "01",
+        "category": "Produce",
+        "category_img": "../src/images/Vector (1).png",
+        "prod_id": "03",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "01",
+        "category": "Produce",
+        "category_img": "../src/images/Vector (1).png",
+        "prod_id": "04",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "01",
+        "category": "Produce",
+        "category_img": "../src/images/Vector (1).png",
+        "prod_id": "05",
+        "product_name": "",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "01",
+        "category": "Produce",
+        "category_img": "../src/images/Vector (1).png",
+        "prod_id": "06",
+        "product_naStrawberriesprice": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "01",
+        "category": "Produce",
+        "category_img": "../src/images/Vector (1).png",
+        "prod_id": "07",
+        "product_name": "",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "01",
+        "category": "Produce",
+        "category_img": "../src/images/Vector (1).png",
+        "prod_id": "08",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "01",
+        "category": "Produce",
+        "category_img": "../src/images/Vector (1).png",
+        "prod_id": "09",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "01",
+        "category": "Produce",
+        "category_img": "../src/images/Vector (1).png",
+        "prod_id": "10",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+
+
+      {
+        "cat_id": "02",
+        "category": "Prepared foods",
+        "category_img": "../src/images/Vector (2).png",
+        "prod_id": "11",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "02",
+        "category": "Prepared foods",
+        "category_img": "../src/images/Vector (2).png",
+        "prod_id": "12",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "02",
+        "category": "Prepared foods",
+        "category_img": "../src/images/Vector (2).png",
+        "prod_id": "13",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "02",
+        "category": "Prepared foods",
+        "category_img": "../src/images/Vector (2).png",
+        "prod_id": "14",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "02",
+        "category": "Prepared foods",
+        "category_img": "../src/images/Vector (2).png",
+        "prod_id": "15",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "02",
+        "category": "Prepared foods",
+        "category_img": "../src/images/Vector (2).png",
+        "prod_id": "16",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "02",
+        "category": "Prepared foods",
+        "category_img": "../src/images/Vector (2).png",
+        "prod_id": "17",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "02",
+        "category": "Prepared foods",
+        "category_img": "../src/images/Vector (2).png",
+        "prod_id": "18",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "02",
+        "category": "Prepared foods",
+        "category_img": "../src/images/Vector (2).png",
+        "prod_id": "19",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "02",
+        "category": "Prepared foods",
+        "category_img": "../src/images/Vector (2).png",
+        "prod_id": "20",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "03",
+        "category": "Canned foods & Soups",
+        "category_img": "../src/images/Vector (3).png",
+        "prod_id": "21",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "03",
+        "category": "Canned foods & Soups",
+        "category_img": "../src/images/Vector (3).png",
+        "prod_id": "22",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "03",
+        "category": "Canned foods & Soups",
+        "category_img": "../src/images/Vector (3).png",
+        "prod_id": "23",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "03",
+        "category": "Canned foods & Soups",
+        "category_img": "../src/images/Vector (3).png",
+        "prod_id": "24",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "03",
+        "category": "Canned foods & Soups",
+        "category_img": "../src/images/Vector (3).png",
+        "prod_id": "25",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "03",
+        "category": "Canned foods & Soups",
+        "category_img": "../src/images/Vector (3).png",
+        "prod_id": "26",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "03",
+        "category": "Canned foods & Soups",
+        "category_img": "../src/images/Vector (3).png",
+        "prod_id": "27",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "03",
+        "category": "Canned foods & Soups",
+        "category_img": "../src/images/Vector (3).png",
+        "prod_id": "28",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "03",
+        "category": "Canned foods & Soups",
+        "category_img": "../src/images/Vector (3).png",
+        "prod_id": "29",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "04",
+        "category": "Bakery",
+        "category_img": "../src/images/Vector (4).png",
+        "prod_id": "30",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "04",
+        "category": "Bakery",
+        "category_img": "../src/images/Vector (4).png",
+        "prod_id": "31",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "04",
+        "category": "Bakery",
+        "category_img": "../src/images/Vector (4).png",
+        "prod_id": "32",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "04",
+        "category": "Bakery",
+        "category_img": "../src/images/Vector (4).png",
+        "prod_id": "33",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "04",
+        "category": "Bakery",
+        "category_img": "../src/images/Vector (4).png",
+        "prod_id": "34",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "04",
+        "category": "Bakery",
+        "category_img": "../src/images/Vector (4).png",
+        "prod_id": "35",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "04",
+        "category": "Bakery",
+        "category_img": "../src/images/Vector (4).png",
+        "prod_id": "36",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "05",
+        "category": "Diary & Eggs",
+        "category_img": "../src/images/Vector (5).png",
+        "prod_id": "37",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "05",
+        "category": "Diary & Eggs",
+        "category_img": "../src/images/Vector (5).png",
+        "prod_id": "38",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "05",
+        "category": "Diary & Eggs",
+        "category_img": "../src/images/Vector (5).png",
+        "prod_id": "39",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "05",
+        "category": "Diary & Eggs",
+        "category_img": "../src/images/Vector (5).png",
+        "prod_id": "40",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "05",
+        "category": "Diary & Eggs",
+        "category_img": "../src/images/Vector (5).png",
+        "prod_id": "41",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "05",
+        "category": "Diary & Eggs",
+        "category_img": "../src/images/Vector (5).png",
+        "prod_id": "42",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "05",
+        "category": "Diary & Eggs",
+        "category_img": "../src/images/Vector (5).png",
+        "prod_id": "43",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "05",
+        "category": "Diary & Eggs",
+        "category_img": "../src/images/Vector (5).png",
+        "prod_id": "44",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "06",
+        "category": "Frozen",
+        "category_img": "../src/images/Vector (6).png",
+        "prod_id": "45",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "06",
+        "category": "Frozen",
+        "category_img": "../src/images/Vector (6).png",
+        "prod_id": "46",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "06",
+        "category": "Frozen",
+        "category_img": "../src/images/Vector (6).png",
+        "prod_id": "47",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "06",
+        "category": "Frozen",
+        "category_img": "../src/images/Vector (6).png",
+        "prod_id": "48",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "06",
+        "category": "Frozen",
+        "category_img": "../src/images/Vector (6).png",
+        "prod_id": "49",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "06",
+        "category": "Frozen",
+        "category_img": "../src/images/Vector (6).png",
+        "prod_id": "50",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "06",
+        "category": "Frozen",
+        "category_img": "../src/images/Vector (6).png",
+        "prod_id": "51",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "06",
+        "category": "Frozen",
+        "category_img": "../src/images/Vector (6).png",
+        "prod_id": "52",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "06",
+        "category": "Frozen",
+        "category_img": "../src/images/Vector (6).png",
+        "prod_id": "53",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "06",
+        "category": "Frozen",
+        "category_img": "../src/images/Vector (6).png",
+        "prod_id": "54",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "06",
+        "category": "Frozen",
+        "category_img": "../src/images/Vector (6).png",
+        "prod_id": "55",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "07",
+        "category": "Meat & Seafood",
+        "category_img": "../src/images/Vector (7).png",
+        "prod_id": "56",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "07",
+        "category": "Meat & Seafood",
+        "category_img": "../src/images/Vector (7).png",
+        "prod_id": "57",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "07",
+        "category": "Meat & Seafood",
+        "category_img": "../src/images/Vector (7).png",
+        "prod_id": "58",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "07",
+        "category": "Meat & Seafood",
+        "category_img": "../src/images/Vector (7).png",
+        "prod_id": "59",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "08",
+        "category": "Produce 2",
+        "category_img": "../src/images/Vector (1).png",
+        "prod_id": "60",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "08",
+        "category": "Produce 2",
+        "category_img": "../src/images/Vector (1).png",
+        "prod_id": "61",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "09",
+        "category": "Bakery 2",
+        "category_img": "../src/images/Vector (4).png",
+        "prod_id": "62",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "09",
+        "category": "Bakery 2",
+        "category_img": "../src/images/Vector (4).png",
+        "prod_id": "63",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "09",
+        "category": "Bakery 2",
+        "category_img": "../src/images/Vector (4).png",
+        "prod_id": "64",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "09",
+        "category": "Bakery 2",
+        "category_img": "../src/images/Vector (4).png",
+        "prod_id": "65",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "10",
+        "category": "Meat & Seafood 2",
+        "category_img": "../src/images/Vector (7).png",
+        "prod_id": "66",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      },
+      {
+        "cat_id": "11",
+        "category": "Diary & Eggs 2",
+        "category_img": "../src/images/Vector (5).png",
+        "prod_id": "67",
+        "product_name": "Strawberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 2.png"
+      },
+      {
+        "cat_id": "12",
+        "category": "Frozen 2",
+        "category_img": "../src/images/Vector (6).png",
+        "prod_id": "68",
+        "product_name": "Yogurt",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 3.png"
+      },
+      {
+        "cat_id": "13",
+        "category": "Prepared foods 2",
+        "category_img": "../src/images/Vector (2).png",
+        "prod_id": "69",
+        "product_name": "Blackberries",
+        "price": "$0.69",
+        "quantity": "1 lb",
+        "image": "../src/images/image 4.png"
+      },
+      {
+        "cat_id": "14",
+        "category": "Canned foods & Soups 2",
+        "category_img": "../src/images/Vector (3).png",
+        "prod_id": "70",
+        "product_name": "Banana 1 ct",
+        "price": "$0.69",
+        "quantity": "18 oz",
+        "image": "../src/images/image 1.png"
+      }
+    
+]
+  
