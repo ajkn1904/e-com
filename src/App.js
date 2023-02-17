@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import SideNav from './Components/SideNav/SideNav';
 import TopNav from './Components/TopNav/TopNav';
 import { ProductDataContext } from './Components/Context/DataContext';
+import { Toaster, toast } from 'react-hot-toast';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
     setItemCount(counted);
     localStorage.setItem('counted', JSON.stringify(counted))
     localStorage.setItem('addId', JSON.stringify(addId))
+    toast.success('Item Added');
   }
 
 
@@ -48,7 +50,7 @@ function App() {
     setItemCount(counted);
     localStorage.setItem('counted', JSON.stringify(counted))
     localStorage.setItem('addId', JSON.stringify(filteredId))
-
+    toast.error('Item Removed');
   }
 
 
@@ -69,7 +71,9 @@ function App() {
         <Contents className="md:flex-auto" data={data} addItem={addItem} selectedId={selectedId} handleAddItem={handleAddItem} handleRemoveItem={handleRemoveItem} getCount={getCount} getAddedId={getAddedId} />
       </div>
 
+      <Toaster />
     </div>
+
 
   );
 }
