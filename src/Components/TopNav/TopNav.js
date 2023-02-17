@@ -16,7 +16,7 @@ const TopNav = ({ data }) => {
 
 
     return (
-        <div className='md:hidden flex gap-[15px] whitespace-nowrap overflow-auto scrollbar-hide ml-7'>
+        <div className='md:hidden flex gap-[15px] whitespace-nowrap overflow-auto scrollbar-hide ml-7 mb-[15px]'>
             {
                 data.map(categories =>
                     <div key={categories.cat_id} title={categories.category} className='rounded-md text-[#737D94] hover:text-[#5DA9E9]'>
@@ -30,7 +30,7 @@ const TopNav = ({ data }) => {
                             </div>
 
 
-                            <p className={`w-12 truncate font-extrabold text-xs my-[5px] ${isActive[categories.cat_id] ? 'text-[#5DA9E9]' : ''} `}>{categories.category}</p>
+                            <p className={`w-12 truncate font-extrabold text-xs my-[5px] mt-[5px] ${isActive[categories.cat_id] ? 'text-[#5DA9E9]' : ''} `}>{categories.category}</p>
 
                         </a>
 
