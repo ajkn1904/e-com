@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiShoppingCart } from 'react-icons/fi';
 
-const Header = () => {
+const Header = ({itemCount, getCount}) => {
     return (
         <div className='bg-white md:bg-[#FFE475] h-[102px] px-[25px] py-5 flex justify-between items-center w-full'>
 
@@ -9,7 +9,8 @@ const Header = () => {
 
 
             <div className='w-[77px] h-[34px] px-[5px] py-5 bg-white rounded-full flex justify-center items-center gap-[5px]'>
-                <FiShoppingCart className='w-8 h-6=5 text-[#100E3A]' />
+                <FiShoppingCart className='w-8 h-6 text-[#100E3A]' />
+                <span className='font-extrabold text-[#000000] text-xs'>{itemCount}</span>
             </div>
 
 

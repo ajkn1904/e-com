@@ -21,7 +21,7 @@ const SideNav = ({ data }) => {
                 data.map(categories =>
                     <a href={`#${categories.cat_id}`}
                         key={categories.cat_id}
-                        className={`active-btn w-[207px] h-[42px] text-[#737D94] text-left bg-white border-0 px-[10px] py-10 ml-5 mr-[19.81px] my-[10px] flex justify-start items-center text-base font-extrabold rounded-[10px] transition-colors ease-in-out hover:bg-[#5DA9E9] hover:text-white ${isActive[categories.cat_id] ? 'bg-[#5DA9E9] text-white' : ''}`}
+                        className={`w-[207px] h-[42px] text-[#737D94] text-left bg-white border-0 px-[10px] py-10 ml-5 mr-[19.81px] my-[10px] flex justify-start items-center text-base font-extrabold rounded-[10px] transition-colors ease-in-out hover:bg-[#5DA9E9] hover:text-white ${isActive[categories.cat_id] ? 'bg-[#5DA9E9] text-white' : ''}`}
                         onClick={() => handleClick(categories.cat_id)}
                     >
                         {

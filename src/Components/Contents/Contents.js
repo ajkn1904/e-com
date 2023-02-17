@@ -1,11 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { MdArrowForwardIos } from 'react-icons/md';
 import { AiFillPlusCircle } from 'react-icons/ai';
 import { AiFillMinusCircle } from 'react-icons/ai';
 
-const Contents = ({ data }) => {
+const Contents = ({ data, addItem, selectedId, handleAddItem, handleRemoveItem, getAddedId }) => {
 
     const { productData, categoryData } = data
+
+
+/*     const [itemCount, setItemCount] = useState('0');
+    const [addItem, setAddItem] = useState(false);
+    const [selectedId, setSelectedId] = useState([]);
+    let count = 0;
+
+
+
+    const handleAddItem = id => {
+
+        const addId = [...selectedId, id]
+        setSelectedId(addId)
+        setAddItem(true);
+        const newCount = count + 1;
+        setItemCount(parseInt(itemCount) + parseInt(newCount));
+    }
+    console.log(itemCount);
+
+
+
+    const handleRemoveItem = id => {
+
+        const filteredId = selectedId.filter(item => item !== id)
+        setSelectedId(filteredId)
+        //console.log(filteredId)
+        setAddItem(true);
+        const newCount = count - 1;
+        setItemCount(parseInt(itemCount) + parseInt(newCount));
+
+    }
+
+    console.log(itemCount);
+    console.log(selectedId); */
+    
+    console.log(getAddedId);
+
+
 
     return (
         <div className='relative w-full md:w-[65vw] lg:w-[77vw] my-5 h-[79vh] overflow-y-scroll scrollbar-hide'>
@@ -38,12 +76,20 @@ const Contents = ({ data }) => {
                                             <img src={product.image} alt='' className='w-[100px] h-[100px]' />
 
                                             <div className='absolute right-3 md:right-5 bottom-16 md:bottom-28'>
-                                                <button>
-                                                    <AiFillPlusCircle className='bg-white rounded-full text-[#40D589] h-[33px] w-[33px]' />
-                                                </button>
-                                                {/*  <button>
-                                                    <AiFillMinusCircle className='bg-white rounded-full text-[#40D589] h-[33px] w-[33px]'/>
-                                                    </button> */}
+                                                {(addItem && selectedId.find(id => product.prod_id === id)) || getAddedId?.find(id => product.prod_id === id) ?
+
+
+                                                    <button>
+                                                        <AiFillMinusCircle className='bg-white rounded-full text-[#40D589] h-[33px] w-[33px]' onClick={() => handleRemoveItem(product.prod_id)} />
+                                                    </button>
+
+                                                    :
+
+                                                    <button>
+                                                        <AiFillPlusCircle className='bg-white rounded-full text-[#40D589] h-[33px] w-[33px]' onClick={() => handleAddItem(product.prod_id)} />
+                                                    </button>
+
+                                                }
                                             </div>
 
                                             <h2 className='font-bold text-base md:text-xl lg:text-xl text-[#100E3A]'>{product.price}</h2>

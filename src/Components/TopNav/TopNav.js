@@ -18,7 +18,7 @@ const TopNav = ({ data }) => {
         <div className='md:hidden flex gap-[15px] whitespace-nowrap overflow-auto scrollbar-hide ml-7'>
             {
                 data.map(categories =>
-                    <div key={categories.cat_id} className='active-btn rounded-md text-[#737D94] hover:text-[#5DA9E9]'>
+                    <div key={categories.cat_id} className='rounded-md text-[#737D94] hover:text-[#5DA9E9]'>
                         <a href={`#${categories.cat_id}`}
                         onClick={() => handleClick(categories.cat_id)}>
 
