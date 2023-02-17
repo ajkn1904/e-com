@@ -2,76 +2,76 @@
     {
         "cat_id": "01",
         "category": "Produce",
-        "category_img": "../src/images/Vector (1).png"
+        "category_img": "https://i.ibb.co/kKQqg2d/Vector.png"
     },
     {
         "cat_id": "02",
         "category": "Prepared foods",
-        "category_img": "../src/images/Vector (2).png"    
+        "category_img": "https://i.ibb.co/khPDXMR/Vector2.png"    
     },
     {
         "cat_id": "03",
         "category": "Canned foods & Soups",
-        "category_img": "../src/images/Vector (3).png"  
+        "category_img": "https://i.ibb.co/chY5z40/Vector3.png"  
     },
     {
         "cat_id": "04",
         "category": "Bakery",
-        "category_img": "../src/images/Vector (4).png"  
+        "category_img": "https://i.ibb.co/dkRkS79/Vector4.png"  
     },
     {
         "cat_id": "05",
         "category": "Diary & Eggs",
-        "category_img": "../src/images/Vector (5).png"  
+        "category_img": "https://i.ibb.co/FWC0DNz/Vector5.png"  
     },
     {
         "cat_id": "06",
         "category": "Frozen",
-        "category_img": "../src/images/Vector (6).png"  
+        "category_img": "https://i.ibb.co/25S9QMY/Vector6.png"  
     },
     {
         "cat_id": "07",
         "category": "Meat & Seafood",
-        "category_img": "../src/images/Vector (7).png"  
+        "category_img": "https://i.ibb.co/WfjPZWj/Vector7.png"  
     },
     {
         "cat_id": "08",
         "category": "Produce 2",
-        "category_img": "../src/images/Vector (1).png"
+        "category_img": "https://i.ibb.co/kKQqg2d/Vector.png"
     },
     {
         "cat_id": "09",
         "category": "Bakery 2",
-        "category_img": "../src/images/Vector (4).png" 
+        "category_img": "https://i.ibb.co/dkRkS79/Vector4.png" 
     },
     {
         "cat_id": "10",
         "category": "Meat & Seafood 2",
-        "category_img": "../src/images/Vector (7).png"  
+        "category_img": "https://i.ibb.co/WfjPZWj/Vector7.png"  
     },
     {
         "cat_id": "11",
         "category": "Diary & Eggs 2",
-        "category_img": "../src/images/Vector (5).png" 
+        "category_img": "https://i.ibb.co/FWC0DNz/Vector5.png" 
     },
     {
         "cat_id": "12",
         "category": "Frozen 2",
-        "category_img": "../src/images/Vector (6).png" 
+        "category_img": "https://i.ibb.co/25S9QMY/Vector6.png" 
     },
     {
         "cat_id": "13",
         "category": "Prepared foods 2",
-        "category_img": "../src/images/Vector (2).png"   
+        "category_img": "https://i.ibb.co/khPDXMR/Vector2.png"   
     },
     {
         "cat_id": "14",
         "category": "Canned foods & Soups 2",
-        "category_img": "../src/images/Vector (3).png" 
+        "category_img": "https://i.ibb.co/chY5z40/Vector3.png" 
     },
     {
         "cat_id": "15",
         "category": "Diary & Eggs 3",
-        "category_img": "../src/images/Vector (5).png" 
+        "category_img": "https://i.ibb.co/FWC0DNz/Vector5.png" 
     }
 ]
