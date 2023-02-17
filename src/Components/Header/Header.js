@@ -3,8 +3,7 @@ import { FiShoppingCart } from 'react-icons/fi';
 
 const Header = () => {
     return (
-        <div className='bg-white md:bg-[#FFE475] h-[
-            102px] px-[25px] py-5 flex justify-between items-center'>
+        <div className='bg-white md:bg-[#FFE475] h-[102px] px-[25px] py-5 flex justify-between items-center w-full'>
 
             <h1 className='text-[#100E3A] text-3xl font-bold'>E-Commerce</h1>
 

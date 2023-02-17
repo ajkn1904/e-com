@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopNav = ({ data }) => {
     return (
-        <div className='md:hidden flex gap-[15px] whitespace-nowrap overflow-auto scrollbar-hide border-b ml-7'>
+        <div className='md:hidden flex gap-[15px] whitespace-nowrap overflow-auto scrollbar-hide ml-7'>
             {
                 data.map(categories =>
                     <div key={categories.cat_id} className='rounded-md text-[#737D94] active:text-[#5DA9E9] hover:text-[#5DA9E9]' >

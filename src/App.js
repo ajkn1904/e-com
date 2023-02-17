@@ -19,9 +19,12 @@ function App() {
       
       <TopNav data={data.categoryData}/>
       
-      <div className='flex'>
-        <SideNav className="" data={data.categoryData}/>
-        <Contents className="" data={data.productData}/>
+      <div className='md:hidden border border-[vw]'/>
+
+
+      <div className='md:flex absolute w-[vw]'>
+        <SideNav className="md:flex-none" data={data.categoryData}/>
+        <Contents className="md:flex-auto" data={data}/>
       </div>
 
     </div>
