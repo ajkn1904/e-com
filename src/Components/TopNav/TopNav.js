@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../btnStyle.css';
 
 
 const TopNav = ({ data }) => {
@@ -22,7 +23,7 @@ const TopNav = ({ data }) => {
                         <a href={`#${categories.cat_id}`}
                             onClick={() => handleClick(categories.cat_id)}>
 
-                            <div className={`bg-[#EDEDED] hover:bg-[#5DA9E9] active:content-white h-12 w-12 rounded-[5px] flex items-center justify-center ${isActive[categories.cat_id] ? 'bg-[#5DA9E9]' : ''} `}>
+                            <div className={`bg-[#EDEDED] hover:bg-[#5DA9E9] active:content-white h-12 w-12 rounded-[5px] flex items-center justify-center ${isActive[categories.cat_id] ? 'active' : ''} `}>
 
                                 <img title={categories.category} src={categories.category_img} alt={categories.category} className='w-[19.16px] h-[19.16px]' />
 
