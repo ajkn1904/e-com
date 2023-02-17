@@ -9,14 +9,13 @@ import { ProductDataContext } from './Components/Context/DataContext';
 
 function App() {
   const data = useContext(ProductDataContext);
-  //console.log(data)
 
   const getPreviousAddedId = localStorage.getItem('addId')
   const getAddedId = JSON.parse(getPreviousAddedId)
   const getPreviousCount = localStorage.getItem('counted')
   const getCount = JSON.parse(getPreviousCount)
 
-  
+
 
   const [itemCount, setItemCount] = useState(getCount || '0');
   const [addItem, setAddItem] = useState(false);
@@ -29,7 +28,6 @@ function App() {
 
     const addId = [...selectedId, id]
     setSelectedId(addId)
-    //console.log(addId)
     setAddItem(true);
     const newCount = count + 1;
     const counted = parseInt(itemCount) + parseInt(newCount)
@@ -44,7 +42,6 @@ function App() {
 
     const filteredId = selectedId.filter(item => item !== id)
     setSelectedId(filteredId)
-    //console.log(filteredId)
     setAddItem(true);
     const newCount = count - 1;
     const counted = parseInt(itemCount) + parseInt(newCount)
@@ -53,11 +50,6 @@ function App() {
     localStorage.setItem('addId', JSON.stringify(filteredId))
 
   }
-
-  //console.log(itemCount);
-  //console.log(selectedId);
-  
-  console.log(getAddedId);
 
 
 

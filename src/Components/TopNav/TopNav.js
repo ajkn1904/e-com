@@ -7,8 +7,8 @@ const TopNav = ({ data }) => {
 
     const handleClick = id => {
         setIsActive(prevActiveButtons => ({
-           [id]: !prevActiveButtons[id]
-          }));
+            [id]: !prevActiveButtons[id]
+        }));
     };
 
 
@@ -20,7 +20,7 @@ const TopNav = ({ data }) => {
                 data.map(categories =>
                     <div key={categories.cat_id} className='rounded-md text-[#737D94] hover:text-[#5DA9E9]'>
                         <a href={`#${categories.cat_id}`}
-                        onClick={() => handleClick(categories.cat_id)}>
+                            onClick={() => handleClick(categories.cat_id)}>
 
                             <div className={`bg-[#EDEDED] hover:bg-[#5DA9E9] active:content-white h-12 w-12 rounded-[5px] flex items-center justify-center ${isActive[categories.cat_id] ? 'bg-[#5DA9E9]' : ''} `}>
 

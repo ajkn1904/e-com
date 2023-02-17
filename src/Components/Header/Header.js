@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiShoppingCart } from 'react-icons/fi';
 
-const Header = ({itemCount, getCount}) => {
+const Header = ({ itemCount }) => {
     return (
         <div className='bg-white md:bg-[#FFE475] h-[102px] px-[25px] py-5 flex justify-between items-center w-full'>
 

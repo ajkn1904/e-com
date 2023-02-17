@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { MdArrowForwardIos } from 'react-icons/md';
 import { AiFillPlusCircle } from 'react-icons/ai';
 import { AiFillMinusCircle } from 'react-icons/ai';
@@ -8,45 +7,9 @@ const Contents = ({ data, addItem, selectedId, handleAddItem, handleRemoveItem, 
     const { productData, categoryData } = data
 
 
-/*     const [itemCount, setItemCount] = useState('0');
-    const [addItem, setAddItem] = useState(false);
-    const [selectedId, setSelectedId] = useState([]);
-    let count = 0;
-
-
-
-    const handleAddItem = id => {
-
-        const addId = [...selectedId, id]
-        setSelectedId(addId)
-        setAddItem(true);
-        const newCount = count + 1;
-        setItemCount(parseInt(itemCount) + parseInt(newCount));
-    }
-    console.log(itemCount);
-
-
-
-    const handleRemoveItem = id => {
-
-        const filteredId = selectedId.filter(item => item !== id)
-        setSelectedId(filteredId)
-        //console.log(filteredId)
-        setAddItem(true);
-        const newCount = count - 1;
-        setItemCount(parseInt(itemCount) + parseInt(newCount));
-
-    }
-
-    console.log(itemCount);
-    console.log(selectedId); */
-    
-    console.log(getAddedId);
-
-
 
     return (
-        <div className='relative w-full md:w-[65vw] lg:w-[77vw] my-5 h-[79vh] overflow-y-scroll scrollbar-hide'>
+        <div className='relative w-full md:w-[65vw] lg:w-[77vw] my-5 h-[67vh] md:h-[79vh] overflow-y-scroll scrollbar-hide'>
             {
                 categoryData.map(productCategory => <div id={productCategory.cat_id} key={productCategory.cat_id} className='md:border-b'>
 
