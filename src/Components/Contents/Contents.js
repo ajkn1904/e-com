@@ -9,17 +9,22 @@ const Contents = ({ data, addItem, selectedId, handleAddItem, handleRemoveItem, 
 
 
     return (
-        <div className='relative w-full md:w-[65vw] lg:w-[77vw] my-5 h-[67vh] md:h-[79vh] overflow-y-scroll scrollbar-hide'>
+        <div className='relative w-full md:w-[65vw] lg:w-[77vw] my-5 h-[67vh] md:h-[79.5vh] overflow-y-scroll scrollbar-hide'>
             {
                 categoryData.map(productCategory => <div id={productCategory.cat_id} key={productCategory.cat_id} className='md:border-b'>
 
 
 
-                    <div className='flex items-center mt-[17px] mb-[11px] md:mb-10px] md:mt-[30px]'>
+                    <div className='flex justify-between items-center mt-[17px] mb-[11px] md:mb-10px] md:mt-[30px]'>
 
-                        <h2 className='h-7 font-bold text-3xlb text-[#100E3A] mr-[13.78px] ml-5 md:ml-[38.19px]'>{productCategory.category}</h2>
+                        <div className='flex items-center'>
+                            <h2 className='h-7 font-bold text-3xlb text-[#100E3A] mr-[13.78px] ml-5 md:ml-[38.19px]'>{productCategory.category}</h2>
 
-                        <MdArrowForwardIos className='h-7' />
+                            <MdArrowForwardIos className='h-7' />
+
+                        </div>
+
+                        <button className='block md:hidden text-[#5DA9E9] font-bold text-xs'>View All</button>
                     </div>
 
 

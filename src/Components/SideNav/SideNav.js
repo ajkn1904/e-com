@@ -17,7 +17,7 @@ const SideNav = ({ data }) => {
 
     return (
         //<div className='hidden md:block w-[247px]'>
-        <div className='hidden md:block  w-[247px] h-[79vh] scrollbar-thin scrollbar-thumb-[#5DA9E9] scrollbar-track-[#EDEDED] overflow-y-scroll scrollbar-thumb-rounded-full mt-[21px] top-28'>
+        <div className='hidden md:block w-[247px] h-[80vh] scrollbar-thin scrollbar-thumb-[#5DA9E9] scrollbar-track-[#EDEDED] overflow-y-scroll scrollbar-thumb-rounded-full mt-5'>
             {
                 data.map(categories =>
                     <a href={`#${categories.cat_id}`}
